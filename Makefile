@@ -1,2 +1,2 @@
 default:
-	clang++ -lstdc++ -pthread main.cpp -o main.o
+	clang++ -lstdc++ -pthread -g main.cpp -o main.o
