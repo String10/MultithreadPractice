@@ -1,6 +1,6 @@
 CC = clang++
 FLAGS = -lstdc++ -pthread -g
-FILE = pass0
+FILE = pass1
 
 default:
 	$(CC) $(FLAGS) $(FILE).cpp -o $(FILE).o
