@@ -1,13 +1,9 @@
 CC = clang++
-FLAGS = -lstdc++ -pthread
+FLAGS = -lstdc++ -pthread -g
+FILE = create2
 
-0:
-	$(CC) $(FLAGS) create0.cpp -o create0.o
-
-1:
-	$(CC) $(FLAGS) create1.cpp -o create1.o
+default:
+	$(CC) $(FLAGS) $(FILE).cpp -o $(FILE).o
 
 clean:
 	rm *.o
-
-default:
